@@ -1,26 +1,26 @@
-# The Minimalist Entrepreneur — Claude Code Skills
+# 极简创业家 — Claude Code 技能插件
 
-Claude Code skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia.
+基于 Sahil Lavingia 所著的《[极简创业家](https://www.minimalistentrepreneur.com/)》的 Claude Code 技能。
 
-## Installation
+## 安装
 
-In Claude Code:
+在 Claude Code 中：
 
 ```
 /plugin marketplace add slavingia/skills
 /plugin install minimalist-entrepreneur
 ```
 
-That's it — Claude Code will fetch the repo and register all 10 skills automatically.
+就是这样 — Claude Code 会自动获取该仓库并注册所有 10 个技能。
 
 <details>
-<summary>Alternative: install from a local clone</summary>
+<summary>备选方案：从本地克隆安装</summary>
 
 ```bash
 git clone https://github.com/slavingia/skills.git ~/.claude/plugins/skills
 ```
 
-Then in Claude Code:
+然后在 Claude Code 中：
 
 ```
 /plugin marketplace add ~/.claude/plugins/skills
@@ -29,32 +29,32 @@ Then in Claude Code:
 
 </details>
 
-## Skills
+## 技能
 
-| Skill | Command | When to use |
+| 技能 | 命令 | 适用场景 |
 |-------|---------|-------------|
-| **Find Community** | `/find-community` | Looking for a business idea, trying to find your community |
-| **Validate Idea** | `/validate-idea` | Testing if a business idea is worth pursuing |
-| **MVP** | `/mvp` | Ready to build your first product, struggling with scope |
-| **Processize** | `/processize` | Have a product idea, want to deliver value by hand before writing code |
-| **First Customers** | `/first-customers` | Have a product, need to find your first 100 customers |
-| **Pricing** | `/pricing` | Setting prices, considering price changes |
-| **Marketing Plan** | `/marketing-plan` | Have product-market fit, ready to scale with content |
-| **Grow Sustainably** | `/grow-sustainably` | Making decisions about spending, hiring, or scaling |
-| **Company Values** | `/company-values` | Defining culture, preparing to hire |
-| **Minimalist Review** | `/minimalist-review` | Gut-checking any business decision |
+| **寻找社区 (Find Community)** | `/find-community` | 寻找商业创意，试图找到你的社区时 |
+| **验证创意 (Validate Idea)** | `/validate-idea` | 测试一个商业创意是否值得付诸行动时 |
+| **最小可行性产品 (MVP)** | `/mvp` | 准备构建你的首个产品，但在确定范围上遇到困难时 |
+| **流程化 (Processize)** | `/processize` | 有了一个产品创意，想在编写代码前先通过纯手工方式提供价值时 |
+| **首批客户 (First Customers)** | `/first-customers` | 已经有产品，需要找到你的前 100 位客户时 |
+| **定价策略 (Pricing)** | `/pricing` | 制定价格，或考虑调整价格时 |
+| **营销计划 (Marketing Plan)** | `/marketing-plan` | 达到产品与市场契合（Product-Market Fit），准备通过内容进行规模化推广时 |
+| **可持续增长 (Grow Sustainably)** | `/grow-sustainably` | 在做出有关支出、招聘或规模化扩张的决策时 |
+| **公司价值观 (Company Values)** | `/company-values` | 定义团队文化，准备招聘人员时 |
+| **极简评估 (Minimalist Review)** | `/minimalist-review` | 对任何商业决策进行直觉与可行性检查时 |
 
-## The Minimalist Entrepreneur Journey
+## 极简创业家之旅
 
-The skills follow the book's progression:
+这些技能遵循书中的渐进阶段：
 
-1. **Community** — Start by finding your people
-2. **Validate** — Make sure the problem is worth solving
-3. **Build** — Ship a manual process, then productize it
-4. **Processize** — Turn your product idea into a manual process you can deliver today
-5. **Sell** — Get to 100 customers one by one
-6. **Price** — Charge something from day one
-7. **Market** — Build an audience through content
-8. **Grow** — Stay profitable, grow sustainably
-9. **Culture** — Build the house you want to live in
-10. **Review** — Apply minimalist principles to every decision
+1. **社区 (Community)** — 从寻找志同道合的人开始
+2. **验证 (Validate)** — 确保该问题值得被解决
+3. **构建 (Build)** — 先通过人工流程服务，然后再将其产品化
+4. **流程化 (Processize)** — 将你的产品创意转化为今天就可以手工交付的纯人工服务流程
+5. **销售 (Sell)** — 逐个获取你的前 100 位客户
+6. **定价 (Price)** — 从第一天起就进行收费
+7. **营销 (Market)** — 通过内容建立起你的受众群体
+8. **增长 (Grow)** — 保持盈利，实现可持续增长
+9. **文化 (Culture)** — 建设你向往的工作环境与团队氛围
+10. **评估 (Review)** — 将极简主义原则应用到每一个决策中
